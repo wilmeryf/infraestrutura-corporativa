@@ -16,9 +16,13 @@ Planejar, implantar, documentar e apresentar uma infraestrutura completa de TI p
 
 Fornecer soluções tecnológicas eficientes, inovadoras e acessíveis, atendendo às necessidades dos clientes com agilidade, transparência e compromisso, contribuindo para o crescimento e a transformação digital de seus negócios.
 
+---
+
 ## Visão
 
 Ser reconhecida como uma referência em soluções de tecnologia, destacando-se pela excelência no atendimento, confiança dos clientes e capacidade de entregar resultados práticos e inovadores.
+
+---
 
 ## Valores
 * Transparência: atuar com ética, honestidade e clareza em todas as relações.
@@ -26,6 +30,9 @@ Ser reconhecida como uma referência em soluções de tecnologia, destacando-se 
 * Inovação: buscar constantemente novas tecnologias e melhorias nos serviços prestados.
 * Compromisso com o Cliente: compreender as necessidades de cada cliente e entregar soluções de valor.
 * Qualidade: manter elevados padrões técnicos em todos os projetos e serviços.
+
+---
+
 ## Topologia da Rede
 
 ---
