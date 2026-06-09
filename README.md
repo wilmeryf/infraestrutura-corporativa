@@ -40,9 +40,7 @@ Planejar, implantar, documentar e apresentar uma infraestrutura completa de TI p
 
 ## Topologia da Rede
 
-a ser realizado...
-
-tem que fazer po
+Diagrama lógico da rede:
 
 ```mermaid
 graph TD
@@ -83,6 +81,10 @@ Switch --> PC2
 Switch --> PC3
 Switch --> PC4
 ```
+
+Imagem da topologia usada:
+
+![Topologia](imagens/Topologia.png)
 
 ---
 
