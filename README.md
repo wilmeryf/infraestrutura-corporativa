@@ -49,7 +49,7 @@ Internet[Internet]
 
 Firewall[Firewall<br>192.168.10.1]
 
-Switch[Switch Principal]
+Switch[Switch]
 
 AD[Windows Server<br>192.168.10.10]
 
@@ -61,10 +61,10 @@ Printer[Impressora de Rede<br>192.168.10.50]
 
 AP[Access Point<br>192.168.10.60]
 
-PC1[Computador Administrativo]
-PC2[Computador Financeiro]
-PC3[Computador Suporte]
-PC4[Computador Recepção]
+PC1[PC Administrativo]
+PC2[PC Financeiro]
+PC3[PC Suporte]
+PC4[PC Recepção]
 
 Internet --> Firewall
 
