@@ -95,28 +95,19 @@ Rede: 192.168.10.0/24
 | Categoria | Tipo | Faixa do Endereçamento |
 |-|-|-|
 | Segurança/Gateway | Estático | `192.168.10.1` |
-| Servidores | Estático | `192.168.10.10 - 49` |
-| Equipamentos de Rede | Estático | `192.168.10.50 - 69` |
-| Computadores | DHCP | `192.168.10.100 - 199` |
+| Servidores | Estático | `192.168.10.10 - 192.168.10.49` |
+| Equipamentos de Rede | Estático | `192.168.10.50 - 192.168.10.69` |
+| Computadores | DHCP | `192.168.10.100 - 192.168.10.199` |
 
-### Segurança/Gateway
+### Equipamentos
 
 - Firewall → `192.168.10.1`
-
-### Servidores
-
 - Windows Server → `192.168.10.10`
 - WordPress → `192.168.10.20`
 - Tomcat → `192.168.10.30`
-
-### Equipamentos de Rede
-
 - Impressora → `192.168.10.50`
 - Access Point → `192.168.10.60`
-
-### Computadores
-
-- Usuários → `Automático`
+- Computadores → `Automático`
 
 **Observação:** O DHCP não deve entregar IP dos servidores.
 
