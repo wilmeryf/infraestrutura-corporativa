@@ -43,15 +43,11 @@ graph TD
 
 Internet[Internet]
 
-Firewall[Firewall<br>192.168.10.1]
+Debian[Servidor Linux<br>192.168.10.1]
 
 Switch[Switch]
 
 AD[Windows Server<br>192.168.10.10]
-
-WP[Servidor WordPress<br>192.168.10.20]
-
-Tomcat[Servidor Tomcat<br>192.168.10.30]
 
 Printer[Impressora de Rede<br>192.168.10.50]
 
@@ -62,13 +58,11 @@ PC2[PC Financeiro]
 PC3[PC Suporte]
 PC4[PC Recepção]
 
-Internet --> Firewall
+Internet --> Debian
 
-Firewall --> Switch
+Debian --> Switch
 
 Switch --> AD
-Switch --> WP
-Switch --> Tomcat
 Switch --> Printer
 Switch --> AP
 
@@ -99,8 +93,6 @@ Rede: 192.168.10.0/24
 
 - Firewall → `192.168.10.1`
 - Windows Server → `192.168.10.10`
-- WordPress → `192.168.10.20`
-- Tomcat → `192.168.10.30`
 - Impressora → `192.168.10.50`
 - Access Point → `192.168.10.60`
 - Computadores → `Automático`
