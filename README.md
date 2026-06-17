@@ -91,7 +91,7 @@ Rede: 192.168.10.0/24
 
 ### Equipamentos
 
-- Firewall → `192.168.10.1`
+- Servidor Linux → `192.168.10.1`
 - Windows Server → `192.168.10.10`
 - Impressora → `192.168.10.50`
 - Access Point → `192.168.10.60`
