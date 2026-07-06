@@ -7,7 +7,7 @@
 **Integrantes:** Ryan Ferreira, Gabriel Alexandre, Felippe Camargo, Anderson Wilmer, Gustavo Massenio e Reginaldo Filho  
 **Professores:** José de Assis e Leandro Ramos
 
-![Logotipo](Imagens/Logotipo.png)
+![Logotipo](Imagens/logotipo.png)
 
 ---
 
@@ -27,7 +27,7 @@ A Rocket Solutions é uma empresa voltada para a área de tecnologia da informa�
 
 Imagem da topologia usada:
 
-![Topologia](Imagens/Topologia.png)
+![Topologia](Imagens/topologia-logica.png)
 
 
 ---
