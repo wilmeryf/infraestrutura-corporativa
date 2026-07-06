@@ -1,30 +1,13 @@
-# Projeto Integrador - Rocket Solutions
+# Laboratório de Redes - Projeto Integrador Infraestrutura de TI
 
-Implantação da Infraestrutura de TI de uma Empresa Prestadora de Serviços.
+**Unidade Curricular 8 - SENAC**
 
-![Logotipo](imagens/Logotipo.png)
+> **Data:** 8 de junho à 3 de julho de 2026
 
----
+**Integrantes:** Ryan Ferreira, Gabriel Alexandre, Felippe Camargo, Anderson Wilmer, Gustavo Massenio e Reginaldo Filho  
+**Professores:** José de Assis e Leandro Ramos
 
-## Identidade da Empresa
-
-A Rocket Solutions é uma empresa voltada para a área de tecnologia da informação, com foco na implementação de soluções corporativas, suporte aos usuários e gerenciamento de infraestrutura de redes e servidores.
-
-### Missão
-
-Fornecer soluções tecnológicas eficientes, inovadoras e acessíveis, atendendo às necessidades dos clientes com agilidade, transparência e compromisso, contribuindo para o crescimento e a transformação digital de seus negócios.
-
-### Visão
-
-Ser reconhecida como uma referência em soluções de tecnologia, destacando-se pela excelência no atendimento, confiança dos clientes e capacidade de entregar resultados práticos e inovadores.
-
-### Valores
-
-* Transparência: atuar com ética, honestidade e clareza em todas as relações.
-* Agilidade: oferecer soluções rápidas e eficientes para atender às demandas dos clientes.
-* Inovação: buscar constantemente novas tecnologias e melhorias nos serviços prestados.
-* Compromisso com o Cliente: compreender as necessidades de cada cliente e entregar soluções de valor.
-* Qualidade: manter elevados padrões técnicos em todos os projetos e serviços.
+![Logotipo](Imagens/Logotipo.png)
 
 ---
 
@@ -34,89 +17,21 @@ Planejar, implantar, documentar e apresentar uma infraestrutura completa de TI p
 
 ---
 
-## Topologia da Rede
+## Sobre a Empresa
 
-Diagrama lógico da rede:
-
-```mermaid
-graph TD
-
-Internet[Internet]
-
-Debian[Servidor Linux<br>192.168.10.1]
-
-Switch[Switch]
-
-AD[Windows Server<br>192.168.10.10]
-
-Printer[Impressora de Rede<br>192.168.10.50]
-
-AP[Access Point<br>192.168.10.60]
-
-PC1[PC Administrativo]
-PC2[PC Financeiro]
-PC3[PC Suporte]
-PC4[PC Recepção]
-
-Internet --> Debian
-
-Debian --> Switch
-
-Switch --> AD
-Switch --> Printer
-Switch --> AP
-
-Switch --> PC1
-Switch --> PC2
-Switch --> PC3
-Switch --> PC4
-```
-
-Imagem da topologia usada:
-
-![Topologia](imagens/Topologia.png)
+A Rocket Solutions é uma empresa voltada para a área de tecnologia da informação, com foco na implementação de soluções corporativas, suporte aos usuários e gerenciamento de infraestrutura de redes e servidores.
 
 ---
 
-## Plano de Endereçamento IP
+## Topologia Lógica da Rede
 
-Rede: 192.168.10.0/24
+Imagem da topologia usada:
 
-| Categoria | Tipo | Faixa do Endereçamento |
-|-|-|-|
-| Segurança/Gateway | Estático | `192.168.10.1` |
-| Servidores | Estático | `192.168.10.10 - 192.168.10.49` |
-| Equipamentos de Rede | Estático | `192.168.10.50 - 192.168.10.69` |
-| Computadores | DHCP | `192.168.10.100 - 192.168.10.199` |
+![Topologia](Imagens/Topologia.png)
 
-### Equipamentos
-
-- Servidor Linux → `192.168.10.1`
-- Windows Server → `192.168.10.10`
-- Impressora → `192.168.10.50`
-- Access Point → `192.168.10.60`
-- Computadores → `Automático`
-
-**Observação:** O DHCP não deve entregar IP dos servidores.
 
 ---
 
 ## Documentação
 
-Para informações detalhadas, sobre a infraestrutura, configurações e desenvolvimento do projeto, consulte a [wiki do repositório](https://github.com/reginaldotfilho/Rocket-Solutions/wiki).
-
----
-
-## Equipe
-
-Alunos:
-- Reginaldo Filho
-- Gustavo Massenio
-- Anderson Wilmer
-- Ryan Ferreira
-- Gabriel Alexandre
-- Felippe Camargo
-
-Professores:
-- José de Assis
-- Leandro Ramos
+Para informações detalhadas, sobre a infraestrutura, configurações e desenvolvimento do projeto, consulte a [wiki do repositório](https://github.com/wilmeryf/infraestrutura-corporativa/wiki).
